@@ -1,0 +1,8 @@
+#!/bin/bash
+# Description : check if file exist
+
+if [ -e "C:\Users\Works\Desktop\scripts\lol.txt" ]; then
+    echo "exits"
+else
+    echo "not exist"
+fi

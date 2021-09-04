@@ -1,0 +1,7 @@
+#!/bin/bash
+a=`hostname`
+echo "hi $a"
+echo "what's your name?"
+read name
+
+echo "Oh! hi $name"

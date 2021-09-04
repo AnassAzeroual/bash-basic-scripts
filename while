@@ -1,0 +1,11 @@
+#!/bin/bash
+nb=0
+while [ $nb -lt 10 ] 
+do
+    echo "lol $nb"
+    # nb=$((nb+1))
+    # ((nb=nb+1))
+    # let "nb=nb+1"
+    # let "nb++"
+    ((nb++))
+done

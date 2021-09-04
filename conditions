@@ -1,0 +1,23 @@
+#!/bin/bash
+clear
+
+nb=100
+if [ $nb -eq 100 ]; then
+    echo "is 100"
+else
+    echo "is not eq"
+fi
+
+echo "pls insert 1 | 2 | any number"
+read VAR
+case $VAR in
+1)
+    echo 1
+    ;;
+2 | 3)
+    echo 2 or 3
+    ;;
+*)
+    echo default
+    ;;
+esac

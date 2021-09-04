@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd "C:\Users\Works\Desktop\scripte"
+
+if [ $? -eq 0 ] 
+then
+    echo "nice commande"
+else
+    echo "oh!,error code $?"
+fi
